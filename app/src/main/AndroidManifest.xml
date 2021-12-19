@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Avtorizacia">
+
         <activity
             android:name=".registr_actv"
             android:exported="false" />

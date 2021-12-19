@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     if (etLogin.getText().toString().equals("admin")) {
                         startActivity(new Intent(MainActivity.this, AdminPanel.class));
                     } else {
-                        startActivity(new Intent(MainActivity.this, MainActivity.class));
+                        startActivity(new Intent(MainActivity.this, Catalog.class));
                     }
                     finish();
                 } else {
